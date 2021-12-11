@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEB222</title>
+	
+	<link href="normalize.css" rel="stylesheet" type="text/css" media="all" />
+	<script src="info.js"></script>
+	<title>Simran kaur</title>
+	<style> 
+		#rborder1 {
+		  border: 2px solid blanchedalmond;
+		  padding: 10px;
+		  border-radius: 70px;
+		
+		}
+		</style>
+	
+</head>
+<body style="background-color: rgb(139, 211, 205);">
+
+	<header style="background-color:  rgb(90, 97, 192);">
+		<div id="rborder1">
+			<h2>
+                 WEB222 - Final Assessment
+			</h2>
+		</div>
+	</header>
+	<nav>
+		<div class="center">
+		<ul>	
+
+			<li><a href="info.html">information</a></li>
+			<li><a href="reflection.html">reflection</a></li>
+			<li><a href="honesty.html">Honesty</a></li>
+		</ul>
+		</div>
+
+<header>Personal Information</header>
+
+<form name="signup" id="form" method="post" action= "https://httpbin.org/post" onsubmit= 'return'>
+	<input type="hidden" name="lastName" value="Simran kaur" />
+	<input type="hidden" name="studentId" id="studentId" value="156766206" />
+	<div class="form-adj">
+		<label for="firstname">First Name</label>
+          <input id= 'firstname' type="text" />
+	</div>
+	<div class="form-adj">
+		<label for="lastname">Last Name</label>
+          <input id= 'lastname' type="text" />
+	</div>
+	<div class="form-adj">
+		<label for="password">Password</label>
+          <input id= 'password' type="password" />
+
+	</div>
+	<div class="form-adj">
+		<label for="Comfirm_pass">Confirm password</label>
+          <input id= 'Confirm_pass' type="password" />
+	</div>
+	<div class="form-adj">
+		<label for="Username">Username</label>
+          <input id= 'Username' type="text" />
+	</div>
+	
+	<table>
+		<tr>
+			<td>
+				Education Status : 
+			</td>
+			<td>
+			<input type="radio"  name="Education Status">Graduated
+			<input type="radio"  name="Education Status">Current enrolled
+			<input type="radio"  name="Education Status"> Did not graduate
+			
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Email : 
+			</td>
+			<td>
+			<input type="email"  name="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Age : 
+			</td>
+			<td>
+			<input type="number" id="Age"
+			min="18" max="60">
+			</td>
+		</tr>
+		
+
+	</table>
+	<tr>
+		<td>
+			<input type="Submit" value="Submit" name="">
+			<input type="reset" value="Reset" name="">
+		</td>
+	</tr>
+	<div id="error">
+		<h1>Error Message List</h1>
+		<div id="error list"></div>
+
+	</div>
+</form>
+
+
+<footer style="background-color: rgb(95, 169, 212);">
+  <div id="rborder1">
+	  <a href="https://github.com/simrankaur3570/"></a>
+    &copy; Simran Kaur
+  </div>
+  </div>
+</footer>
+</html>
